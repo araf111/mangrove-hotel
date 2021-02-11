@@ -1,0 +1,170 @@
+#fullwidth-video{height: 50vw; min-height:50vh; position: relative;}
+		#fullwidth-video .fullwidth-video-bg {
+		position: absolute; z-index: 1; top: 0px; left: 0px; bottom:
+		0px; right: 0px; overflow: hidden;
+		background-size: cover; background-color: transparent; background-repeat: no-repeat;
+		background-position: 0% 50%; 
+		/* background-image:url (/images/bg/myvideobg.jpg); */
+		}
+		.sldtext {z-index: 2;}
+		#fullwidth-video video {
+		margin: auto; position: absolute; z-index: 1; top: 50%; left: 0%;
+		transform: translate(0%, -50%); visibility: visible;
+		opacity: 1; width: 100%; height: 100%; object-fit: cover;
+		}
+
+		/** For Edge**/
+		@supports (-ms-ime-align:auto){ #fullwidth-video video
+		{ object-fit:none; margin:none;position:inherit;z-index:1;
+		top:50%;left:0%;transform:translate(0%, -50%);height:auto;width:100%; } }
+
+
+		.download-area {
+		  margin: 15px 0;
+		  display: inline-block;
+		  font-size: 1.15em;
+		  position: relative;
+		  text-align: center;
+		  padding: 0.5em 1em;
+		  background: linear-gradient(45deg, #59adeb, #40c3af);
+		  color: #fff;
+		  box-shadow: 0 0.2em 0.2em rgba(0,0,0,0.25);
+		  border-radius: 0.2em;
+		  transition: box-shadow 0.2s ease-in-out;
+		  cursor: pointer;
+		}
+		.download-area:active {
+		  background-color: #ccc;
+		  box-shadow: 0 0 6px rgba(0,121,238,0.6);
+		  transition: box-shadow 0.1s ease-in-out;
+		}
+		.download-area:after {
+		  content: "\0021e7";
+		  position: absolute;
+		  top: -0.4em;
+		  left: 0;
+		  right: 0;
+		  display: block;
+		  transform: rotate(180deg);
+		  font-size: 5em;
+		  opacity: 0;
+		  text-shadow: 0 0 1em #000;
+		  transition: opacity 0.3s ease-in-out, font-size 0.3s ease-in-out, top 0.3s ease-in-out;
+		  box-sizing: border-box;
+		  text-align: center;
+		  color: #fff;
+		}
+		.download-area:active:after {
+		  font-size: 1em;
+		  opacity: 1;
+		  transition: none;
+		  top: 0.3em;
+		}
+		.download-area:hover {
+		  box-shadow: 0 0.1em 0.25em rgba(0,0,0,0.25);
+		}
+
+		/*Footer*/
+
+		.h-23 {
+			height: 23%!important;
+		}
+		.h-80 {
+			height: 80%!important;
+		}
+		.foot-content{
+			background:url(../../images/footer-bg.jpg) no-repeat right;
+			background-size:70%;
+		}
+
+		/*Subscription*/
+		.form__group {
+		  position: relative;
+		  padding: 15px 0 0;
+		  margin: 0 auto;
+		  text-align: center;
+		  width: 80%;
+		}
+
+		.form__field {
+		  font-family: inherit;
+		  width: 100%;
+		  border: 0;
+		  border-bottom: 1px solid #009a4c;
+		  outline: 0;
+		  font-size: 1.2rem;
+		  color: var(--dark);
+		  padding: 5px 0;
+		  background: transparent;
+		  transition: border-color 0.2s;
+		}
+		.form__field::placeholder {
+		  color: transparent;
+		}
+		.form__field:placeholder-shown ~ .form__label {
+			  font-size: 1.0rem;
+			cursor: text;
+			top: 26px;
+		}
+
+		.form__label {
+		  position: absolute;
+		  top: 0;
+		  display: block;
+		  transition: 0.2s;
+		  font-size: .9rem;
+		  color: #999999;
+		}
+
+		.form__field:focus {
+		  padding-bottom: 6px;
+		  font-weight: 700;
+		  border-width: 3px;
+		  border-image: linear-gradient(to right, #11998e, #38ef7d);
+		  border-image-slice: 1;
+		}
+		.form__field:focus ~ .form__label {
+		  position: absolute;
+		  top: 0;
+		  display: block;
+		  transition: 0.2s;
+		  font-size: 1rem;
+		  color: #11998e;
+		  font-weight: 700;
+		}
+
+		/* reset input */
+		.form__field:required, .form__field:invalid {
+		  box-shadow: none;
+		}
+
+
+		.subcript-align{
+			background: #e2e3e8;
+			margin-bottom: 20px;
+		}
+		.subscribe {
+			margin-top: 80px;
+		}
+		.subscribe h2 {
+			text-align: center;
+			font-size: 16px;
+			font-weight: bold;
+			color: #14a54a;
+		}
+		.subscribe form {
+			background: #fff;
+			padding: 5px 5px;
+			border-radius: 4px;
+		}
+		.newsletter-submit{
+			width:100%
+		}
+		.newsletter-submit button{
+			margin:0 auto;
+			text-align:center;
+			display:block;
+		}
+		.log-section{
+			background:#f1f4f9;
+		}

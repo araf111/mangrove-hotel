@@ -1,0 +1,24 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Fonts
+@import 'font/custom_fonts';
+
+
+//Layout
+@import 'layout/jquery.pagepiling';
+@import 'layout/jquery.scrollbar';
+@import 'layout/all.min';
+//@import  '~swiper/swiper';
+
+@import 'layout/style';
+
+@import 'layout/custom_app';
+@import 'layout/responsive';
+

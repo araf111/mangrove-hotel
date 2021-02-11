@@ -1,0 +1,88 @@
+
+tr.rowspace {
+    padding: 5px 0px;
+  }
+.field-border{
+    border:1px solid #000 !important;
+    padding:3px !important;
+    font-size: 15px;
+}
+td span.date-text{
+    padding:0px 3px;
+    font-size: 15px;
+}
+td span.date-box{
+    padding:15px 13.5px;
+    border:1px solid #000;
+    font-size: 15px;
+}
+td div.share_id{
+    padding:0px 25px;
+}
+td span.box-lebel{
+    margin:0px 6px;
+    font-size: 13px;
+    vertical-align:top;
+
+}
+
+td span.box-val{
+    padding:5px 70px;
+    margin:0px 3px;
+    border:1px solid #000;
+    font-size: 13px;
+    display:inline-block;
+    vertical-align:top;
+}
+
+td.bapp-fr-text-lebel{
+    width:18%;
+    padding-right:0px;
+    margin-bottom:10px;
+    font-size: 13px;
+}
+
+td.bapp-share-text-lebel{
+    width:18%;
+    padding-right:5px;
+    margin-bottom:10px;
+    font-size: 13px;
+}
+
+td.bapp-text-lebel{
+    width:17%;
+    padding-right:5px;
+    font-size: 15px;
+}
+td.official-lebel{
+    width:17%;
+    padding-right:0px;
+    font-size: 13px;
+}
+td.personal-inform-lebel{
+    width:17%;
+    padding-right:5px;
+    font-size: 15px;
+}
+.app-booking-heading,.app-share-heading,.for-official-heading{
+    font-size:22px;
+    font-weight:700;
+    text-align:center;
+    color:#000;
+    line-height:27px;
+}
+
+.for-official-heading{
+    background-color:gray;
+    color:#fff;
+}
+h2.second-page-header{
+    text-align:right;
+}
+.text-right{
+    text-align:right;
+}
+
+/* .app-booking-heading,.app-share-heading{
+    background-color:transparent;
+} */

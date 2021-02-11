@@ -1,0 +1,160 @@
+[25-May-2020 04:47:45 UTC] PHP Warning:  Uncaught ErrorException: Array to string conversion in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php:35
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Array to string...', '/home/mangroveh...', 35, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php(35): require()
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Routing\RouteFileRegistrar->register(Array)
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(374): Illuminate\Routing\Router->loadRoutes(Array)
+#4 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(134): Illuminate\Routing\Route in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[25-May-2020 04:47:45 UTC] PHP Fatal error:  Illuminate\Routing\RouteFileRegistrar::register(): Failed opening required 'Array' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Routing/RouteFileRegistrar.php on line 35
+[30-May-2020 18:20:24 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:20:59 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:21:09 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:21:35 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:21:56 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:24:16 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:24:21 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:24:24 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:24:28 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:24:43 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:24:45 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:25:29 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:27:55 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:28:07 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:29:28 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:37:18 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:37:20 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 18:37:22 UTC] PHP Fatal error:  Declaration of App\Exceptions\Handler::report(Throwable $exception) must be compatible with Illuminate\Foundation\Exceptions\Handler::report(Exception $e) in /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php on line 8
+[30-May-2020 21:13:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\Debug\Exception\FatalThrowableError' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:116
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#1 {main}
+  thrown in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php on line 116
+[30-May-2020 21:14:16 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\Debug\Exception\FatalThrowableError' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:116
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#1 {main}
+  thrown in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php on line 116
+[30-May-2020 21:14:18 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\Debug\Exception\FatalThrowableError' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:116
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#1 {main}
+  thrown in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php on line 116
+[30-May-2020 21:15:35 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\Debug\Exception\FatalThrowableError' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:116
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#1 {main}
+  thrown in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php on line 116
+[30-May-2020 21:16:56 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\Debug\Exception\FatalThrowableError' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:116
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#1 {main}
+  thrown in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php on line 116
+[30-May-2020 21:32:44 UTC] PHP Fatal error:  Trait 'Illuminate\View\Compilers\Concerns\CompilesRawPhp' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 11
+[30-May-2020 21:32:44 UTC] PHP Fatal error:  Trait 'Illuminate\View\Compilers\Concerns\CompilesRawPhp' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 11
+[30-May-2020 21:32:44 UTC] PHP Fatal error:  Trait 'Illuminate\View\Compilers\Concerns\CompilesStacks' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 11
+[30-May-2020 21:32:45 UTC] PHP Fatal error:  Trait 'Illuminate\View\Compilers\Concerns\CompilesStacks' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 11
+[30-May-2020 21:32:45 UTC] PHP Fatal error:  Trait 'Illuminate\View\Compilers\Concerns\CompilesTranslations' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 11
+[30-May-2020 21:32:45 UTC] PHP Fatal error:  Trait 'Illuminate\View\Compilers\Concerns\CompilesTranslations' not found in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php on line 11
+[31-May-2020 19:57:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:00:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:00:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:03:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:04:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:04:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:07:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:07:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:11:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:16:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:20:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:24:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:24:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:26:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:32:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[31-May-2020 20:33:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\HttpFoundation\trigger_deprecation() in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php:237
+Stack trace:
+#0 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(328): Symfony\Component\HttpFoundation\Response::create('<!doctype html>...', 500, Array)
+#1 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(305): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse(Object(Error))
+#2 /home/mangrovehotel/dev.mangrove-hotel.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(210): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Error))
+#3 /home/mangrovehotel/dev.mangrove-hotel.com/app/Exceptions/Handler.php(50): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object( in /home/mangrovehotel/dev.mangrove-hotel.com/vendor/symfony/http-foundation/Response.php on line 237
+[15-Jun-2020 23:05:55 UTC] PHP Fatal error:  Cannot use Auth as Auth because the name is already in use in /home/mangrovehotel/dev.mangrove-hotel.com/app/Http/Controllers/Admin/AuthController.php on line 12

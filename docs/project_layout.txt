@@ -1,0 +1,129 @@
+├── public_html/
+│   ├── .env
+│   ├── .gitignore
+│   ├── artisan
+│   ├── composer.json
+│   ├── package.json
+│   ├── webpack.mix.js
+│   ├── server.php
+│   ├── app/
+│   │   ├── Console/
+│   │   ├── Exceptions/
+│   │   ├── Policies/
+│   │   ├── Providers/
+│   │   │   ├── AppServiceProvider.php
+│   │   │   ├── AuthServiceProvider.php
+│   │   │   └── RouteServiceProvider.php
+│   │   ├── Http/
+│   │   │   ├── Kernel.php
+│   │   │   ├── Middleware/
+│   │   │   ├── Requests/
+│   │   │   └── Controllers/
+│	│	│		├── Auth/
+│	│   │   	│   ├── RegisterController.php
+│	│   │   	│   ├── LoginController.php
+│	│   │   	│   ├── ConfirmPasswordController.php
+│	│   │   	│   ├── VerificationController.php
+│	│   │   	│   └── ForgotPasswordController.php
+│	│	│		├── Shareholder/
+│	│   │   	│	├── HomeController.php
+│	│   │   	│	├── DashboardController.php
+│	│   │   	│   └── ShareController.php
+│	│   │   	└── Admin/
+│	│   │   		├── CmsController.php
+│	│   │   		├── MenuController.php
+│	│   │   		├── NewsController.php
+│	│   │   		├── DashboardController.php
+│	│   │   		├── AdminController.php
+│	│   │   		├── AccountController.php
+│	│   │   		├── UserController.php
+│	│   │   	    └── ConfigController.php
+│   │   └── Models/
+│   │   	├── User.php
+│   │   	├── Role.php
+│   │   	├── HasRoles.php
+│   │   	├── Permission.php
+│   │   	├── settings.php
+│   │   	├── account/
+│   │   	│   └── acount.php
+│   │   	└── sharedholder/
+│   │   	│   └── shares.php
+│   │   	└── cms/
+│   │       	└── pages.php
+│   ├── config/
+│   │   ├── auth.php
+│   │   ├── database.php
+│   │   └── app.php
+│   └── resources/
+│   │   ├── js/
+│	│	│	├── components/
+│	│	│	├── app.js
+│	│	│	└── bootstrap.js
+│   │   ├── sass
+│	│	│	├── app.scss
+│	│	│	└── variables.scss
+│   │   └── views/
+│	│		├── auth/
+│	│		└── front/
+│	│		│	├── layouts/
+│   │   	│	│	├── default.blade.php
+│   │   	│	│	├── guest.blade.php
+│   │   	│	│	├── head.blade.php
+│   │   	│	│	├── header.blade.php
+│   │   	│	│	├── foot.blade.php
+│   │   	│	│	├── footer.blade.php
+│   │       │	│	├── sidebar.blade.php
+│   │       │	│	└── sidebar_menu.blade.php
+│	│		│	└── cms/
+│   │       │	│	├── contact.blade.php
+│   │       │	│	└── policy.blade.php
+│	│		└── shareholder/
+│	│		│	├── layouts/
+│   │   	│	│	├── backend.blade.php
+│   │   	│	│	├── frontend.blade.php
+│   │   	│	│	├── head.blade.php
+│   │   	│	│	├── header.blade.php
+│   │   	│	│	├── foot.blade.php
+│   │   	│	│	├── footer.blade.php
+│   │       │	│	├── sidebar.blade.php
+│   │       │	│	└── sidebar_menu.blade.php
+│	│		│	└── front/
+│   │  		│	│	└── signup.blade.php
+│	│		│	└── backend/
+│   │   	│		├── dashboard.blade.php
+│   │       │		├── profile.blade.php
+│   │       │		└── account.blade.php
+│	│		└── admin/
+│	│			├── layouts/
+│   │   		│	├── default.blade.php
+│   │   		│	├── head.blade.php
+│   │   		│	├── header.blade.php
+│   │   		│	├── foot.blade.php
+│   │   		│	├── footer.blade.php
+│   │       	│	├── sidebar.blade.php
+│   │       	│	└── sidebar_menu.blade.php
+│	│			└── shareholder/
+│   │   		│	├── index.blade.php
+│   │   		│	├── create.blade.php
+│   │  		 	│	└── edit.blade.php
+│	│			└── account/
+│   │   		│	├── index.blade.php
+│   │       	│	├── create.blade.php
+│   │       	│	└── edit.blade.php
+│	│			└── settings/
+│   │   			├── index.blade.php
+│   │       		├── create.blade.php
+│   │       		└── edit.blade.php
+│   └── routes/
+│   │   ├── admin.php
+│   │   ├── shareholder.php
+│   │   ├── web.php
+│   │   ├── console.php
+│   │   └── api.php
+│   └── database/
+│   │   └── factories/
+│ 	│ 	├── migrations/
+│   │   └── seeds/   
+│	├── tests/
+│	├── vendor/
+│	└── bootstrap/
